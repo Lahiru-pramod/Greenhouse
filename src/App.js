@@ -1,23 +1,17 @@
 import './App.css';
 import React from 'react';
 import Navbar from './Components/Home/Navbar';
+import Banner from './Components/Home/banner';
 import {BrowserRouter as Router, Switch, Route}from 'react-router-dom';
+
 
 function App() {
   return (
     
         <Router>
            <Navbar/>
-          <div className="container-fluid">
-          <div className="row">
-            <div className="col">
-               Lahiru
-
-        </div>
-
-
-      </div>
-      </div>
+           <Banner/>
+           
         </Router>
        
     
