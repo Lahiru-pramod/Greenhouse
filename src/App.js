@@ -4,7 +4,7 @@ import Navbar from './Components/Home/Navbar';
 import Banner from './Components/Home/banner';
 import Items from './Components/Home/items';
 import Footer from './Components/Home/footer';
-import {BrowserRouter as Router, Switch, Route}from 'react-router-dom';
+import {BrowserRouter as Router}from 'react-router-dom';
 
 
 function App() {
