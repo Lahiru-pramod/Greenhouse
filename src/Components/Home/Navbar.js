@@ -6,7 +6,7 @@ class App extends Component{
   render() {
     return (
 
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-light fixed-top">
         <div className="container-fluid">
         <a className="navbar-brand fw-bold fs-2 text" href="#"><i class="fa fa-home" aria-hidden="true"></i>Greenhouse</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">

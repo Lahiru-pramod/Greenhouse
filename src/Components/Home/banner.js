@@ -12,6 +12,7 @@ function banner() {
     )
 }
 
+
 export default banner
 
  
